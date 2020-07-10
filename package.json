@@ -1,0 +1,22 @@
+{
+  "name": "webdesign_two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync --server --files -w \"./index.html ./src/css/*.css ./src/js/*.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "gsap": "^3.4.0"
+  }
+}
