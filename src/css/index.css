@@ -44,7 +44,7 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(rgb(245, 245, 245), rgb(219, 217, 217));
+  background: #f7f8fe;
 }
 h1,
 h2,
@@ -58,6 +58,23 @@ h6 {
 .page-wrapper {
   width: 100%;
   min-height: 100%;
+}
+/* reindeer */
+.reindeer-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 740px;
+  height: 740px;
+  transform: translate(-50%, -50%);
+}
+.reindeer-image {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/reindeer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*circle-wrapper*/
 .circle-wrapper {
