@@ -88,6 +88,40 @@ h6 {
   font-size: 2rem;
   font-weight: 300;
 }
+.navigation {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: 150px;
+}
+.navigation ul {
+  transform: translate(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.navigation li {
+  padding-bottom: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+.navigation li:hover::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  content: '';
+  display: block;
+  width: 40px;
+  border-bottom: 1px solid var(--yellow);
+  margin-top: -0.5rem;
+  margin-right: -5rem;
+}
 /* reindeer */
 .reindeer-wrapper {
   position: absolute;
@@ -119,7 +153,7 @@ h6 {
   font-weight: bold;
   transform: scaleY(1.4);
   color: var(--gray);
-  letter-spacing: 0.5rem;
+  letter-spacing: 1.5rem;
 }
 .title p {
   max-width: 350px;
