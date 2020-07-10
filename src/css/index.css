@@ -112,6 +112,7 @@ h6 {
     transform: rotate(360deg);
   }
 }
+
 /* social-wrapper */
 
 .social-wrapper {
@@ -124,4 +125,23 @@ h6 {
 }
 .social-wrapper i {
   margin-right: 2rem;
+}
+
+/* scroll-down */
+.scroll-down {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--gray-dark);
+  position: absolute;
+  left: -20px;
+  bottom: 80px;
+  transform: rotate(-90deg);
+}
+.scroll-down::before {
+  content: '';
+  display: inline-block;
+  width: 10rem;
+  margin-right: 1rem;
+  border-bottom: 0.1rem solid var(--gray-dark);
+  transform: translateY(-0.3rem);
 }
