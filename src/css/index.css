@@ -74,7 +74,7 @@ h6 {
   justify-content: center;
   text-transform: uppercase;
 }
-.logo h1 {
+.logo h2 {
   font-weight: bold;
   font-size: 5rem;
   margin-bottom: 0;
@@ -104,6 +104,28 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* title */
+.title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -200px;
+  right: 250px;
+  z-index: 2;
+}
+.title h1 {
+  font-size: 11rem;
+  font-weight: bold;
+  transform: scaleY(1.4);
+  color: var(--gray);
+  letter-spacing: 0.5rem;
+}
+.title p {
+  max-width: 350px;
+  margin-left: auto;
+  font-size: 2rem;
+  font-weight: 300;
 }
 /*circle-wrapper*/
 .circle-wrapper {
