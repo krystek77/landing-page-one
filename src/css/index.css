@@ -45,6 +45,7 @@ body {
   margin: 0;
   padding: 0;
   background: #f7f8fe;
+  overflow: hidden;
 }
 h1,
 h2,
@@ -193,6 +194,7 @@ h6 {
   height: 640px;
   border-radius: 50%;
   border: 1px solid var(--gray);
+  opacity: 0;
 }
 .circle-one,
 .circle-two {
@@ -211,6 +213,7 @@ h6 {
   animation-delay: 0s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  opacity: 0;
 }
 .circle-two {
   border-color: transparent var(--yellow);
