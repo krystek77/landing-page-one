@@ -9,6 +9,7 @@
     const title = document.querySelector('.title');
     const watchWrapper = document.querySelector('.watch-wrapper');
     const socialIcons = gsap.utils.toArray('.social-icon');
+    const navigationItems = gsap.utils.toArray('.navigation-item');
 
     gsap.to(overlayTitle, {
         y: '-=200',
@@ -78,5 +79,12 @@
         ease: 'power2.out',
         delay: 7
     })
-
+    gsap.from(navigationItems, {
+        stagger: 0.3,
+        autoAlpha: 0,
+        x: '-100%',
+        duration: 1,
+        ease: 'power2.out',
+        delay: 7
+    })
 })();
