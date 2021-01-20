@@ -17,6 +17,6 @@
     "@babel/polyfill": "^7.10.4",
     "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
-    "gsap": "^3.4.0"
+    "gsap": "^3.6.0"
   }
 }
